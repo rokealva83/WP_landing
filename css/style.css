@@ -285,6 +285,7 @@ h3 {
     margin-top: 65px;
     text-align: center;
     position: relative;
+    height: 735px;
 }
 
 .price-box {
@@ -358,4 +359,66 @@ h3 {
 
 .price-button:hover, .service-button:hover, .portfolio-button:hover {
     background-color: #788492;
+}
+
+.reviews {
+    width: 1440px;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.text-reviews {
+    margin: 34px auto;
+    width: 650px;
+}
+
+.text-reviews span {
+    font-size: 20px;
+}
+
+.author-reviews {
+    margin: 15px auto;
+}
+
+.author-reviews span {
+    font-size: 22px;
+}
+
+.footer {
+    margin-top: auto;
+    background-image: url("../image/background-footer.png");
+    text-align: center;
+    padding-top: 140px;
+}
+
+.footer h1 {
+    color: #636363;
+}
+
+.left-footer {
+    text-align: left;
+    float: left;
+    padding: 86px 50px 50px 140px;
+    width: 650px;
+    background-color: #b92c28;
+}
+
+.social {
+    padding: 17px 0px 0px;
+    margin: 0px 0px 0px -5px;
+
+}
+
+.social a {
+    margin-right: 10px;
+}
+
+.social a:hover {
+    margin-right: 10px;
+}
+
+.right-footer {
+    float: left;
+    padding: 50px 0 50px 50px;
 }
