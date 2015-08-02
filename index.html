@@ -14,7 +14,6 @@
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/slider.js" type="text/javascript"></script>
-    <script src="js/perfect-scrollbar.jquery.js" type="text/javascript"></script>
     <script src="js/landing.js"></script>
 
 
@@ -266,7 +265,7 @@
         </div>
     </section>
 
-    <section class="reviews clearfix">
+    <section class="reviews clearfix" id="blog">
         <h1 class="title">Reviews</h1>
 
         <div class="text-reviews">
@@ -290,7 +289,7 @@
                 <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's                standard dummy text ever since the 1500s,</span>
             </div>
-            <div class="social">
+            <div class="social clearfix">
                 <a href="#"><img src="image/facebook.png"></a>
                 <a href="#"><img src="image/twitter.png"></a>
                 <a href="#"><img src="image/google.png"></a>
@@ -299,7 +298,7 @@
             <div class="contact">
                 <p>Posted by Dospel & GanjaParker</p>
 
-                <p>+XX-XXXX - XXXX - XX</p>
+                <p><a href="tel:+380971234567" title="+38 (097) 123-45-67">+38 (097) 123-45-67</a></p>
 
                 <p>info@mail.com</p>
             </div>
@@ -307,8 +306,18 @@
         </div>
 
 
-        <div class="right-footer">
-            2
+        <div class="right-footer" id="contact">
+            <form method="post">
+                <div class="name-email clearfix">
+                    <input class="name" type="text" value="" placeholder="name" name="name">
+                    <input class="name" type="email" value="" placeholder="E-mail" name="e-mail">
+                </div>
+                <div class="message-box">
+                    <textarea class="message" placeholder="Message" name="message"></textarea>
+                </div>
+                    <button class="message-button">Send</button>
+
+            </form>
         </div>
 
     </section>
